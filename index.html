@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Комплекты стеллажных систем</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.cdnfonts.com">
+  <link href="https://fonts.cdnfonts.com/css/sf-ui-text-2" rel="stylesheet">
+  <link href="https://fonts.cdnfonts.com/css/sf-pro-display" rel="stylesheet">
+</head>
+<body>
+  <nav class="breadcrumbs">
+    <a href="#">Главная</a>
+    <span>/</span>
+    <a href="#">Системы хранения</a>
+    <span>/</span>
+    <a href="#" class="active">Комплекты стеллажных систем</a>
+  </nav>
+
+  <h1 class="page-title">Комплекты стеллажных систем</h1>
+
+  <div class="filters">
+    <div class="filter-group">
+      <label for="sortSelect">Сортировать по:</label>
+      <div class="custom-select">
+        <select id="sortSelect">
+          <option>Цена по возрастанию</option>
+          <option>Цена по убыванию</option>
+          <option>Популярности</option>
+        </select>
+      </div>
+    </div>
+    <div class="filter-group">
+      <label for="materialSelect">Материал</label>
+      <div class="custom-select">
+        <select id="materialSelect">
+          <option>Металл</option>
+          <option>Дерево</option>
+          <option>Пластик</option>
+        </select>
+      </div>
+    </div>
+  </div>
+
+  <div class="products-outer">
+    <div class="products-grid" id="productsGrid"></div>
+  </div>
+  <script src="js/script.js"></script>
+</body>
+</html>
